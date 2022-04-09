@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px) {
+    div.mx-3{
+        font-size: 15px;
+    }
+    #cart {bottom: 8px;}
+}
+@media screen and (max-width: 767px) {
+    .caphead{
+        font-size: 40px;
+    }
+    header{
+        height: 100px;
+    }
+    #cart, #menu {top: 40px;}
+  }
+  @media screen and (max-width: 450px) {
+    .caphead{
+        font-size: 30px;
+    }
+    #cart, #menu {top: 40px;
+        height: 20px;
+       
+    }
+    .header-svg{
+        width: 20px;
+        height: 20px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .caphead{
+        font-size: 25px;
+    }
+  }

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+*{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px; 
+}
+header{
+    background-color: #010005;  
+    display: flex;
+    position: fixed;
+    height: 200px;
+    width: 100%;
+}
+.header-svg{
+    width: 30px;
+    height: 30px;
+}
+#cart{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;    
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+#menu{
+    position: absolute;
+    left: 10px;
+    bottom: 8px;    
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
