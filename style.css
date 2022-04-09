@@ -11,24 +11,19 @@ header{
     display: flex;
     position: fixed;
     height: 200px;
-    width: 100%;
+    width: 100%;    
+}
+.caphead{
+    font-family: 'Roboto', sans-serif;   
 }
 .header-svg{
     width: 30px;
-    height: 30px;
+    height: 30px;   
 }
-#cart{
+#cart-md{
     position: absolute;
     right: 10px;
-    bottom: 8px;    
-    height: 30px;
-    display: flex;
-    align-items: center;
-}
-#menu{
-    position: absolute;
-    left: 10px;
-    bottom: 8px;    
+    bottom: 10px;    
     height: 30px;
     display: flex;
     align-items: center;

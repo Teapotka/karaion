@@ -1,39 +1,33 @@
-let col = document.getElementsByClassName('flex-column')[0]
 let header = document.querySelector('header')
-let check = false
-if(col.classList.contains('d-none') && window.screen.width >= 768){
-    col.classList.remove('d-none')
-    cart.style.bottom = 8+'px'
-    cart.style.right = 10+'px'
-}
-menu.onclick=()=>{   
-    if(col.classList.contains('d-none')){   
-    col.classList.remove('d-none')
-    header.style.height = 250+'px'
-    menu.style.top = 20+'px'
-    cart.style.top = 20+'px'
-    }else{
-        col.classList.add('d-none')
-        header.style.height = 100+'px'
-        menu.style.top = 40+'px'
-        cart.style.top = 40+'px'
+let click = false
+menu.onclick=()=>{ 
+    if(header.clientHeight <= 100){    
+     click = true 
+     colums.style.animation = 'none'
+     colums.style.animation = 'appear 0.5s forwards normal'    
+     header.style.animation = 'none'
+     header.style.animation = 'header 0.5s forwards normal'
+     
     }
+     else{
+        click = false
+        colums.style.animation = 'none'
+        colums.style.animation = 'disappear 0.5s forwards normal'        
+        header.style.animation = 'none'
+        header.style.animation = 'alt-header 0.5s forwards normal'
+     }
+
+}
+menu.onmouseenter = ()=> path.style.fill = 'white'
+menu.onmouseleave = ()=>{ if(!click){path.style.fill = '#787878'}}
+let array = document.getElementsByClassName('mx-3 mb-md-0')
+for (let iterator of array) {
+    iterator.addEventListener('mouseenter', function(){iterator.style.color = 'white'})
+    iterator.addEventListener('mouseleave', function(){iterator.style.color = '#787878'})
+    
 }
 window.onresize = ()=>{
-    if(window.screen.width >= 768 && col.classList.contains('d-none')){
-    col.classList.remove('d-none')
-    header.style.height = 200+'px'
-    }
-    if(window.screen.width < 768 && !col.classList.contains('d-none') && header.style.height != '250px' ){
-        header.style.height = '250px'
-    }
-    if(window.screen.width >= 768 ){
-        cart.style.bottom = 8+'px'
-        cart.style.top = 162+'px'
-        header.style.height = 200+'px'
-    }
-    if(window.screen.width < 768 ){
-        cart.style.bottom = 180+'px'
-        cart.style.top = 40+'px'
+    if(window.screen.width >= 768 && window.screen.width <= 775){
+        location.reload()
     }
 }
