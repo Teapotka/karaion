@@ -37,3 +37,10 @@ section{
     font-size: 24px;  
     font-family: 'Cormorant Garamond', serif;
 }
+.pad{
+    padding: 1px;
+}
+.border-footer{
+    height: 3px;
+    background-color: #484848;    
+}
