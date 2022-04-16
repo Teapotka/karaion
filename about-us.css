@@ -1,0 +1,18 @@
+*{
+    overflow-x: hidden;
+}
+.intro{
+    font-size: 18px;      
+}
+.line{
+    line-height: 18px;  
+} 
+.alt-intro{
+font-size: 20px;
+}
+.subintro{
+    font-size: 8px;
+}
+.nanum-font{
+    font-family: 'Nanum Gothic', sans-serif;
+}

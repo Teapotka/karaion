@@ -6,6 +6,27 @@
     font-family: 'Montserrat', sans-serif;   
     font-size: 20px; 
 }
+a:visited,
+a:active,
+a{    
+    color: #787878;
+    text-decoration: none;   
+    font-size: 15px; 
+}
+a:hover{
+    color: white;
+}
+footer>div>div>div>a,
+footer>div>div>div>a:visited,
+footer>div>div>div>a:active{
+    color: #010005;
+    text-decoration: none;   
+    font-size: 20px; 
+}
+footer>div>div>div>a:hover{
+    color: #787878;
+    font-weight:bold;
+}
 header{
     background-color: #010005;  
     display: flex;
@@ -43,4 +64,10 @@ section{
 .border-footer{
     height: 3px;
     background-color: #484848;    
+}
+.footer-hover:hover{       
+    color: #484848;  
+}
+.rights::before{
+    content: "©All rights reserved ILLIA KARAION F.O.P. 2021";    
 }

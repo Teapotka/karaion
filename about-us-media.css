@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px){
+    .intro{font-size: 24px;}
+    .line{line-height: 24px;}
+    .alt-intro{font-size: 26px;}
+    .subintro{font-size: 10px;}
+}

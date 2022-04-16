@@ -9,15 +9,25 @@
     .home-label{
         font-size: 36px;      
     }
+    .rights{
+        font-size: 17px;
+    }
+    
 }
 @media screen and (min-width: 1024px) {
     .home-label{
         font-size: 40px;       
     }
+    .rights{
+        font-size: 20px;
+    }
 }
 @media screen and (min-width: 1440px) {
     .home-label{
         font-size: 48px;        
+    }
+    .rights{
+        font-size: 25px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -38,6 +48,9 @@
         font-size: 24px;
         height: 50px;
     }
+    .rights{
+        font-size: 15px;
+    }
    
   }
   @media screen and (max-width: 450px) {
@@ -48,9 +61,15 @@
         width: 20px;
         height: 20px;
     }
+    .rights{
+        font-size: 12px;
+    }
   }
   @media screen and (max-width: 350px) {
     .caphead{
         font-size: 25px;
+    }
+    .rights{
+        font-size: 10px;
     }
   }
