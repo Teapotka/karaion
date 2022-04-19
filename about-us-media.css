@@ -2,5 +2,7 @@
     .intro{font-size: 24px;}
     .line{line-height: 24px;}
     .alt-intro{font-size: 26px;}
-    .subintro{font-size: 10px;}
+    .subintro{font-size: 12px;}
+    .ultraintro{font-size: 40px;}
+    .how-we{width: 260px; height: 390px;}
 }

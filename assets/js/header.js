@@ -25,3 +25,13 @@ window.onresize = ()=>{
         location.reload()
     }
 }
+window.onscroll = () =>{   
+    if(window.screen.width < 768){
+        click = false
+        colums.style.animation = 'none'
+        colums.style.animation = 'disappear 0.5s forwards normal'        
+        header.style.animation = 'none'
+        header.style.animation = 'alt-header 0.5s forwards normal'
+    }
+    
+}
