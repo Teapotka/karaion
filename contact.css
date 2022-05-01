@@ -1,0 +1,10 @@
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+html{
+    overflow-y: visible;
+}
+.con-cap{font-size: 24px;}
+.con-subcap{font-size: 18px;}
+.con-sub{font-size: 10px;}

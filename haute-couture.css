@@ -1,0 +1,23 @@
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+html{
+    overflow-y: visible;
+}
+.haute-cap{font-size: 24px;}
+.haute-subcap{font-size: 18px;}
+.haute-sub{font-size: 10px;}
+.haute-button{
+    width: 160px;
+    height: 52px;
+    font-family: 'Comfortaa', cursive;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.haute-button:hover{
+    background-color: black;
+    color: white
+    
+}

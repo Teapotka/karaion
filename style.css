@@ -71,3 +71,10 @@ section{
 .rights::before{
     content: "©All rights reserved ILLIA KARAION F.O.P. 2021";    
 }
+.cormorant-font{font-family: 'Cormorant Garamond', serif;}
+.nanum-font{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.dosis-font{
+    font-family: 'Dosis', sans-serif;
+}
