@@ -1,4 +1,6 @@
 let header = document.querySelector('header')
+header.onmousedown = () => false
+header.onselectstart = () => false
 let click = false
 menu.onclick=()=>{ 
     if(header.clientHeight <= 100){    
